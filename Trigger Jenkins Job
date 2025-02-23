@@ -1,0 +1,4 @@
+#!/bin/bash
+jenkins_url="http://jenkins-server/job/my-job/build" 
+curl -X POST $jenkins_url --user "username:token"
+echo "Jenkins job triggered." 
